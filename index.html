@@ -182,8 +182,20 @@
                 <h2>¿Necesitas apoyo para el traslado de carga?</h2>
                 <p>Contáctanos para conocer nuestros servicios y conversar sobre tu operación.</p>
             </div>
-            <a class="button button-light" href="mailto:contacto@segec.cl">Escríbenos <span
-                    aria-hidden="true">→</span></a>
+            <form class="contact-form" id="contact-form">
+                <label for="contact-name">Nombre</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+                <label for="contact-email">Correo electrónico</label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+                <label for="contact-message">Mensaje</label>
+                <textarea id="contact-message" name="message" rows="4" required></textarea>
+
+                <button class="button button-light" type="submit">Enviar mensaje <span
+                        aria-hidden="true">→</span></button>
+                <p class="form-help">Se abrirá tu aplicación de correo para enviar el mensaje.</p>
+            </form>
         </section>
 
     </main>
