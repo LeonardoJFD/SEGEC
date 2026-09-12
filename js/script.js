@@ -62,6 +62,6 @@ if (contactForm) {
         const subject = encodeURIComponent(`Consulta desde el sitio web - ${name}`);
         const body = encodeURIComponent(`Nombre: ${name}\nCorreo: ${email}\n\n${message}`);
 
-        window.location.href = `mailto:contacto@segec.cl?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:leonardofonsecadonoso@gmail.com?subject=${subject}&body=${body}`;
     });
 }
